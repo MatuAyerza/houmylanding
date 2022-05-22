@@ -9,16 +9,15 @@ export const Navigation = (props) => {
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
-            {" "}
-            <span className='sr-only'>Toggle navigation</span>{" "}
-            <span className='icon-bar'></span>{" "}
-            <span className='icon-bar'></span>{" "}
-            <span className='icon-bar'></span>{" "}
+            {' '}
+            <span className='sr-only'>Toggle navigation</span>{' '}
+            <span className='icon-bar'></span>{' '}
+            <span className='icon-bar'></span>{' '}
+            <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src='img/logos/logodeepblue.jpg' className='img-responsive' alt='' />{" "}
             Houmy
-          </a>{" "}
+          </a>{' '}
         </div>
 
         <div
@@ -33,27 +32,37 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                Sobre Nosotros
+                About
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Servicios
+                Services
+              </a>
+            </li>
+            <li>
+              <a href='#portfolio' className='page-scroll'>
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href='#testimonials' className='page-scroll'>
+                Testimonials
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Equipo
+                Team
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Contacto
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  );
+  )
 }

@@ -17,20 +17,19 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    alert("¡Email enviado!");
     console.log(name, email, message)
     emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
+      .sendForm("service_udesa", "contact_houmy", e.target, "SS59mWWLGgcu7uZlj")
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          console.log(result.text);
+          clearState();
         },
         (error) => {
-          console.log(error.text)
+          console.log(error.text);
         }
-      )
+      );
   }
   return (
     <div>
@@ -39,10 +38,11 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>Contactános</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Si te interesa saber más sobre nosotros y ser parte de
+                  nuestros clientes prioritarios, dejános tu email y el servicio
+                  que más te interesa en el siguiente formulario.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -52,7 +52,7 @@ export const Contact = (props) => {
                       <input
                         type='text'
                         id='name'
-                        name='name'
+                        name='user_name'
                         className='form-control'
                         placeholder='Name'
                         required
@@ -66,7 +66,7 @@ export const Contact = (props) => {
                       <input
                         type='email'
                         id='email'
-                        name='email'
+                        name='user_email'
                         className='form-control'
                         placeholder='Email'
                         required
@@ -77,12 +77,32 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 <div className='form-group'>
+                  <label htmlFor="interes">Qué servicio te interesa más</label>
+                  <select
+                    name='interes'
+                    id='interes'
+                    className='form-control'
+                    required
+                    onChange={handleChange}
+                  >
+                    <option disabled selected value="none">
+                      {" "}
+                      -- Seleccione una opción --{" "}
+                    </option>
+                    <option value='limpieza'>Limpieza</option>
+                    <option value='comfort'>Comfort</option>
+                    <option value='seguridad'>Seguridad</option>
+                    <option value='cocina'>Cocina</option>
+                  </select>
+                  <p className='help-block text-danger'></p>
+                </div>
+                <div className='form-group'>
                   <textarea
                     name='message'
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Mensaje'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -90,39 +110,31 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  Enviar
                 </button>
               </form>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
+          {/* <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>Información de Contacto</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Dirección
                 </span>
-                {props.data ? props.data.address : 'loading'}
-              </p>
-            </div>
-            <div className='contact-item'>
-              <p>
-                <span>
-                  <i className='fa fa-phone'></i> Phone
-                </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {props.data ? props.data.address : "loading"}
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                </span>{" "}
+                {props.data ? props.data.email : "loading"}
               </p>
             </div>
-          </div>
-          <div className='col-md-12'>
+          </div> */}
+          {/* <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
@@ -144,13 +156,14 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            Page Template by &copy; 2020 Issaaf Kattan React Land Page Template.
+            Design by{" "}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
@@ -158,5 +171,5 @@ export const Contact = (props) => {
         </div>
       </div>
     </div>
-  )
+  );
 }

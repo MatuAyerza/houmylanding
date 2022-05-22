@@ -1,21 +1,15 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Houmy",
+    "paragraph": "Viví Smart. Amigate con la tecnología."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Somos una empresa Argentina donde nuestro principal objetivo es democratizar el acceso a la tecnologia IoT para el uso cotidiano, dando lugar a una vida mejor que todos merecemos.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Te vamos a mandar updates de nuestro emprendimiento",
+      "Ofrecemos descuentos en los presupuestos",
+      "Vas a quedar en lista prioritaria a la hora de implementar",
+      "Ofrecemos una presupuestación gratis"
     ]
   },
   "Gallery": [
@@ -67,34 +61,49 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Integrá tu casa con la tecnología",
+      "text": "Integramos tu casa actual al mundo de la tecnología sin la necesidad de ninguna obra de reacondicinamiento. Además nos adaptamos al ecosistema de funcionamiento que sea de tu preferencia e integramos tus dispositivos ya existentes."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-lock",
+      "name": "Seguridad",
+      "text": "La vida se disfruta siempre que se pueda dormir tranquilo. Gracias a Houmy nunca más vas a perder el sueño, ¡estés donde estés! Ofrecemos un control completo de lo que sucede en tu casa, tanto desde adentro como en cualquier lugar del mundo en el que te encuentres."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-laptop",
+      "name": "Comfort",
+      "text": "A la hora de relajarse lo último que necesitas es tener que poner las cosas a funcionar. Con Houmy vas a poder poner escenarios automatizados para que con un comando de voz o un simple botón tu sala se transforme en un cine o tu comida de todos los días se transforme en una cita romantica."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-microphone",
+      "name": "Control por voz",
+      "text": "Tener la capacidad de controlar la casa con comandos de voz sin la necesidad de tocar ningún dispositivo es ideal en especial si se encuentra en situaciones que requieren las manos ocupadas como la cocina."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-trash",
+      "name": "Limpieza",
+      "text": "Nada peor que volver de un largo dia de trabajo y tener que ponerte a limpiar tu casa. Hoy en dia los robots nos permiten automatizar gran parte de la limpieza de la casa y en Houmy queremos que tu casa esté impecable para cuando vuelvas del trabajo."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cutlery",
+      "name": "Cocina",
+      "text": "La cocina ocupa gran parte de la vida cotidiana y sabemos que en nuestra cocina del futuro te vamos a ayudar a ser un 70% mas eficiente. Gracias a robots y nuestras tareas automatizadas vas a poder realizar tus comidas con el mínimo esfuerzo y tener el máximo de sabor. "
+    },
+    {
+      "icon": "fa fa-book",
+      "name": "Aprendé",
+      "text": "¡En Houmy entendemos lo que te frusta de la tecnologia y logramos hacer que usarla sea muy fácil! Lo simple es divertido y te damos las herramientas para que no necesites ser un experto para disfrutar los beneficios que trae el mundo de la tecnología."
+    },
+    {
+      "icon": "fa fa-calendar",
+      "name": "Servicio técnico 24/7",
+      "text": "Nuestra prioridad N°1 es que tu casa funcione y no tengas ningún problema, sino nuestra propuesta pierde todo su valor. Nos comprometemos a ofrecer un servicio de consulta técnica 24/7 donde te ayudamos con cualquier inconveniente que surja."
+    },
+    {
+      "icon": "fa fa-newspaper-o",
+      "name": "Suscripción a nuestra newsletter “Mejora Contínua”",
+      "text": "Ofrecemos una suscripción a nuestro newsletter de avances tecnologicos de IoT y ofrecemos descuentos en productos para tu casa."
     }
   ],
   "Testimonials": [
@@ -132,27 +141,27 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Matías Ayerza",
+      "job": "CEO"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Juan Martín Lucioni",
+      "job": "CTO"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Matías Macek",
+      "job": "CFO"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Sofía Mollón",
+      "job": "COO"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Vito Dumas 284, Victoria, Buenos Aires ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
     "facebook": "fb.com",
@@ -161,24 +170,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-desktop",
+      "title": "Integrá lo que tenés",
+      "text": "Nos adaptamos al ecosistema de funcionamiento que sea de tu preferencia e integramos tus dispositivos ya existentes"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-play",
+      "title": "Ganá tiempo y energía",
+      "text": "¡No te gastes! ¡Podemos armar escenas para cada momento de tu vida, donde vos solo te encargas de disfrutar! “Alexa, Noche de Pelis” - y tu living se transforma en un cine."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lock",
+      "title": "Control total",
+      "text": "No importa donde estés, ¡el control lo tenés vos! Sabe qué está ocurriendo en toda tu casa incluso cuando no estás presente."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-book",
+      "title": "Simpleza",
+      "text": "Nos encargamos de que esta transformación digital se lo mas amigable posible con nuestra plataforma de tutoriales y guías amistosa."
     }
   ]
 }
