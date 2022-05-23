@@ -20,7 +20,7 @@ export const Header = (props) => {
                   </a>{" "}
                   <a
                     href='#contact'
-                    className='btn btn-custom btn-lg page-scroll'
+                    className='btn btn-custom btn-lg page-scroll right-button'
                   >
                     Contactanos
                   </a>{" "}

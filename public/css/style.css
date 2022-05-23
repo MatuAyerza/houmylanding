@@ -632,7 +632,9 @@ label {
   #about img {
     margin: 50px 0;
   }
-  
+  .intro {
+    width: 112%;
+  }
   .header-btn-wrap {
     display: flex;
     flex-direction: column;
@@ -641,5 +643,8 @@ label {
     margin-left: 0;
     margin-bottom: 15px;
     width: 100%;
+  }
+  .right-button {
+    margin-bottom: 15px;
   }
 }
