@@ -632,9 +632,9 @@ label {
   #about img {
     margin: 50px 0;
   }
-  .intro {
+  /* .intro {
     width: 112%;
-  }
+  } */
   .header-btn-wrap {
     display: flex;
     flex-direction: column;
