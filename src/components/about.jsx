@@ -11,7 +11,7 @@ export const About = (props) => {
             <div className='about-text'>
               <h2>Sobre Nosotros</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Dejános tu mail porque</h3>
+              <h3>Dejanos tu mail porque</h3>
               <div className='list-style'>
                 <div className='col-lg-12 col-sm-6 col-xs-12'>
                   <ul>
@@ -24,7 +24,7 @@ export const About = (props) => {
                 </div>
               </div>
               <a href='#contact' className='btn btn-custom btn-lg page-scroll'>
-                Contactános
+                Contactanos
               </a>{" "}
             </div>
           </div>

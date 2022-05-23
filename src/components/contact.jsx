@@ -38,10 +38,10 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Contactános</h2>
+                <h2>Contactanos</h2>
                 <p>
                   Si te interesa saber más sobre nosotros y ser parte de
-                  nuestros clientes prioritarios, dejános tu email y el servicio
+                  nuestros clientes prioritarios, dejanos tu email y el servicio
                   que más te interesa en el siguiente formulario.
                 </p>
               </div>
@@ -49,12 +49,13 @@ export const Contact = (props) => {
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
+                      <label htmlFor='name'>Nombre</label>
                       <input
                         type='text'
                         id='name'
                         name='user_name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='Nombre'
                         required
                         onChange={handleChange}
                       />
@@ -63,6 +64,7 @@ export const Contact = (props) => {
                   </div>
                   <div className='col-md-6'>
                     <div className='form-group'>
+                      <label htmlFor='email'>Email</label>
                       <input
                         type='email'
                         id='email'
@@ -77,7 +79,7 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 <div className='form-group'>
-                  <label htmlFor="interes">Qué servicio te interesa más</label>
+                  <label htmlFor='interes'>Qué servicio te interesa más</label>
                   <select
                     name='interes'
                     id='interes'
@@ -85,7 +87,7 @@ export const Contact = (props) => {
                     required
                     onChange={handleChange}
                   >
-                    <option disabled selected value="none">
+                    <option disabled selected value='none'>
                       {" "}
                       -- Seleccione una opción --{" "}
                     </option>
@@ -97,12 +99,13 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div>
                 <div className='form-group'>
+                  <label htmlFor='message'>Comentarios</label>
                   <textarea
                     name='message'
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Mensaje'
+                    placeholder='Dejanos tu comentario acá...'
                     required
                     onChange={handleChange}
                   ></textarea>

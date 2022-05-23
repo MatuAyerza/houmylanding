@@ -4,7 +4,7 @@
     "paragraph": "Viví Smart. Amigate con la tecnología."
   },
   "About": {
-    "paragraph": "Somos una empresa Argentina donde nuestro principal objetivo es democratizar el acceso a la tecnologia IoT para el uso cotidiano, dando lugar a una vida mejor que todos merecemos.",
+    "paragraph": "Somos una empresa argentina donde nuestro principal objetivo es democratizar el acceso a la tecnología IoT para el uso cotidiano, dando lugar a una vida mejor que todos merecemos.",
     "Why": [
       "Te vamos a mandar updates de nuestro emprendimiento",
       "Ofrecemos descuentos en los presupuestos",
@@ -61,8 +61,8 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-home",
-      "name": "Integrá tu casa con la tecnología",
+      "icon": "fa fa-desktop",
+      "name": "Integrá lo que tenés",
       "text": "Integramos tu casa actual al mundo de la tecnología sin la necesidad de ninguna obra de reacondicinamiento. Además nos adaptamos al ecosistema de funcionamiento que sea de tu preferencia e integramos tus dispositivos ya existentes."
     },
     {
@@ -73,7 +73,7 @@
     {
       "icon": "fa fa-laptop",
       "name": "Comfort",
-      "text": "A la hora de relajarse lo último que necesitas es tener que poner las cosas a funcionar. Con Houmy vas a poder poner escenarios automatizados para que con un comando de voz o un simple botón tu sala se transforme en un cine o tu comida de todos los días se transforme en una cita romantica."
+      "text": "A la hora de relajarse lo último que necesitas es tener que poner las cosas a funcionar. Con Houmy vas a poder poner escenarios automatizados para que con un comando de voz o un simple botón tu sala se transforme en un cine o tu comida de todos los días se transforme en una cita romántica."
     },
     {
       "icon": "fa fa-microphone",
@@ -83,17 +83,17 @@
     {
       "icon": "fa fa-trash",
       "name": "Limpieza",
-      "text": "Nada peor que volver de un largo dia de trabajo y tener que ponerte a limpiar tu casa. Hoy en dia los robots nos permiten automatizar gran parte de la limpieza de la casa y en Houmy queremos que tu casa esté impecable para cuando vuelvas del trabajo."
+      "text": "Nada peor que volver de un largo día de trabajo y tener que ponerte a limpiar tu casa. Hoy en día los robots nos permiten automatizar gran parte de la limpieza de la casa y en Houmy queremos que tu casa esté impecable para cuando vuelvas del trabajo."
     },
     {
       "icon": "fa fa-cutlery",
       "name": "Cocina",
-      "text": "La cocina ocupa gran parte de la vida cotidiana y sabemos que en nuestra cocina del futuro te vamos a ayudar a ser un 70% mas eficiente. Gracias a robots y nuestras tareas automatizadas vas a poder realizar tus comidas con el mínimo esfuerzo y tener el máximo de sabor. "
+      "text": "La cocina ocupa gran parte de la vida cotidiana y sabemos que en nuestra cocina del futuro te vamos a ayudar a ser un 70% más eficiente. Gracias a robots y nuestras tareas automatizadas vas a poder realizar tus comidas con el mínimo esfuerzo y tener el máximo de sabor. "
     },
     {
       "icon": "fa fa-book",
       "name": "Aprendé",
-      "text": "¡En Houmy entendemos lo que te frusta de la tecnologia y logramos hacer que usarla sea muy fácil! Lo simple es divertido y te damos las herramientas para que no necesites ser un experto para disfrutar los beneficios que trae el mundo de la tecnología."
+      "text": "¡En Houmy entendemos lo que te frusta de la tecnología y logramos hacer que usarla sea muy fácil! Lo simple es divertido y te damos las herramientas para que no necesites ser un experto para disfrutar los beneficios que trae el mundo de la tecnología."
     },
     {
       "icon": "fa fa-calendar",
@@ -102,8 +102,8 @@
     },
     {
       "icon": "fa fa-newspaper-o",
-      "name": "Suscripción a nuestra newsletter “Mejora Contínua”",
-      "text": "Ofrecemos una suscripción a nuestro newsletter de avances tecnologicos de IoT y ofrecemos descuentos en productos para tu casa."
+      "name": "Suscripción a nuestro newsletter “Mejora Contínua”",
+      "text": "Ofrecemos una suscripción a nuestro newsletter de avances tecnológicos de IoT y ofrecemos descuentos en productos para tu casa."
     }
   ],
   "Testimonials": [
@@ -170,24 +170,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-desktop",
-      "title": "Integrá lo que tenés",
-      "text": "Nos adaptamos al ecosistema de funcionamiento que sea de tu preferencia e integramos tus dispositivos ya existentes"
+      "icon": "fa fa-home",
+      "title": "Integrá tu casa con la tecnología",
+      "text": "Integramos tu casa actual al mundo de la tecnología sin la necesidad de ninguna obra de reacondicinamiento."
     },
     {
       "icon": "fa fa-play",
       "title": "Ganá tiempo y energía",
-      "text": "¡No te gastes! ¡Podemos armar escenas para cada momento de tu vida, donde vos solo te encargas de disfrutar! “Alexa, Noche de Pelis” - y tu living se transforma en un cine."
+      "text": "¡No te gastes! ¡Podemos armar escenas para cada momento de tu vida, donde vos solo te encargás de disfrutar! “Alexa, Noche de Pelis” - y tu living se transforma en un cine."
     },
     {
       "icon": "fa fa-lock",
       "title": "Control total",
-      "text": "No importa donde estés, ¡el control lo tenés vos! Sabe qué está ocurriendo en toda tu casa incluso cuando no estás presente."
+      "text": "No importa donde estés, ¡el control lo tenés vos! Sabé qué está ocurriendo en toda tu casa incluso cuando no estás presente."
     },
     {
       "icon": "fa fa-book",
       "title": "Simpleza",
-      "text": "Nos encargamos de que esta transformación digital sea lo mas amigable posible con nuestra plataforma de tutoriales y guías amistosa."
+      "text": "Nos encargamos de que esta transformación digital sea lo más amigable posible con nuestra plataforma de tutoriales y guías amistosa."
     }
   ]
 }
